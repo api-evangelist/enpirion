@@ -1,7 +1,25 @@
 aid: enpirion
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/enpirion.png
 name: Enpirion
-description: Enpirion is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Enpirion was a fabless semiconductor company specializing in high-frequency
+  power-management integrated circuits, best known for its PowerSoC family of integrated
+  DC-DC converters that combined the controller, MOSFETs, and inductor in a single package
+  for point-of-load power conversion in networking, computing, and industrial systems. The
+  company was acquired by Altera in 2013 and subsequently absorbed into Intel with Altera in
+  2015; the Enpirion brand and its enpirion.com developer/product site are now defunct. It
+  never operated a public developer API, documentation portal, or SDK program, so this record
+  is retained as a company identity stub rather than an active API provider.
 url: https://raw.githubusercontent.com/api-evangelist/enpirion/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +29,24 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Semiconductors
+- Power Management
+- Integrated Circuits
+- DC-DC Converters
+- PowerSoC
+- Hardware
+- Electronics
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
